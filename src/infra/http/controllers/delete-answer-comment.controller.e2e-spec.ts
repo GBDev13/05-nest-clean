@@ -7,7 +7,6 @@ import { JwtService } from '@nestjs/jwt'
 import { StudentFactory } from 'test/factories/make-student'
 import { DatabaseModule } from '@/infra/database/database.module'
 import { QuestionFactory } from 'test/factories/make-question'
-import { QuestionCommentFactory } from 'test/factories/make-question-comment'
 import { AnswerFactory } from 'test/factories/make-answer'
 import { AnswerCommentFactory } from 'test/factories/make-answer-comment'
 

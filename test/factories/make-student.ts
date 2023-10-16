@@ -13,7 +13,7 @@ export function makeStudent(
   override: Partial<StudentProps> = {},
   id?: UniqueEntityID,
 ) {
-  const question = Student.create(
+  const student = Student.create(
     {
       name: faker.person.fullName(),
       email: faker.internet.email(),
@@ -23,7 +23,7 @@ export function makeStudent(
     id,
   )
 
-  return question
+  return student
 }
 
 @Injectable()
